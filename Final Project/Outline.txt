@@ -1,0 +1,43 @@
+Classes: 
+	PrgDevice [parent]:
+		Common data members
+		Common functions 
+		Start/stop time/date
+		Difference between system time
+	Appliance1 [child]:
+		Thermostat:						//inspired by NEST thermostat
+			Temperature
+			Start time
+			End time
+	Appliance2 [child]:
+		Lights:							//inspired by Philips Hue
+			Colour
+			Brightness
+			Start time
+			End time
+	Appliance3 [child]:
+		Vacuum Robot:					//inspired by Roomba
+			Clean x amount of rooms
+			Total area cleaned
+			Time required per room 
+			Total Time required
+			Start time
+
+
+
+Objects:
+	One object per appliance
+
+Main should include selection menu
+	1. provice submenu to the list of devices
+		a. choose device
+		b. program device start/stop
+		c. select task
+	2. display status of all devices
+	3. exit
+
+
+
+
+
+
