@@ -3,4 +3,6 @@
 
 
 Welp
-Just a final project repo rn pls
+
+
+Hopelessness cuz idk how to do any of these properly anymore
